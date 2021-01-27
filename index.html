@@ -84,10 +84,10 @@
             return amountNumber;
         }
         // function create for update value
-        function updateSpanText(id, depositNumber) {
+        function updateSpanText(id, addedNumber) {
             const current = document.getElementById(id).innerText;
             const currentNumber = parseFloat(current);
-            const total = depositNumber + currentNumber;
+            const total = addedNumber + currentNumber;
             document.getElementById(id).innerText = total;
         }
         //deposit button event handler
